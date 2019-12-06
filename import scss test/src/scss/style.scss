@@ -1,0 +1,36 @@
+@import "./_fonts.scss";
+@import "./header";
+html {
+  font-size: 62.5%;
+}
+
+{ margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+.menu-container{
+  color: #333;
+  background-color: #5995DA;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.menu{
+  border: 1rem solid #444
+  width: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links{
+  border: 1px solid #535:
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+
